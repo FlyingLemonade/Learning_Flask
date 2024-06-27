@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+<!-- block <VARIABLE_NAME> endblock -->
+{% block title %}Home Page{% endblock %}
+<h1>Lemonades Are Weird</h1>
+{% block content %}
+<body>
+    <h1>Hello Woof</h1>
+
+    <h4>To call parameter that sent from the python</h4>
+    <p>{{content}}</p> 
+
+
+    <h4>Running Python Code in HTML</h4>
+    {% for i in range(0,10) %}
+        <p>Hellow {{i}}</p>
+    {% endfor %}
+</body>
+</html>
+{% endblock %}

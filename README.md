@@ -1,2 +1,9 @@
-# Learning_Flask
-This repository is the documentation for my flask learning from the internet.
+# Resources
+
+https://www.youtube.com/@TechWithTim
+
+
+Next Objective :
+<ul>
+<li>Session</li>
+</ul>
